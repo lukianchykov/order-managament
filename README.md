@@ -34,6 +34,7 @@ docker-compose up -d
 ### Клиенты
 - `POST /api/clients` - Создание клиента
 - `GET /api/clients` - Получение всех клиентов
+- `GET /api/clients/search` - Поиск клиента по ключевому слову
 - `GET /api/clients/{id}` - Получение клиента по ID
 - `PUT /api/clients/{id}` - Обновление клиента
 - `POST /api/clients/{id}/deactivate` - Деактивация клиента
