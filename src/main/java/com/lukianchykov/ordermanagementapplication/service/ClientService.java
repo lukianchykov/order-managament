@@ -64,7 +64,7 @@ public class ClientService {
             .collect(Collectors.toList());
     }
 
-    @Transactional(readOnly = true)
+    @Transactional
     public List<ClientResponseDto> searchClients(String keyword) {
         log.info("Searching clients by keyword: '{}'", keyword);
 
